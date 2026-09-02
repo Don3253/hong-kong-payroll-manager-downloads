@@ -6,14 +6,14 @@
 
 [进入最新版下载页](https://github.com/Don3253/hong-kong-payroll-manager-downloads/releases/latest)
 
-适用系统：Windows 10/11 x64。下载 `香港工资管家-安装程序-*.exe` 后运行安装；工资资料仅保存在当前 Windows 用户的本机应用数据目录。
+适用系统：Windows 10/11 x64。下载 `Hong-Kong-Payroll-Manager-Setup-*.exe` 后运行安装；工资资料仅保存在当前 Windows 用户的本机应用数据目录。
 
 ## 校验文件
 
 下载同版本 `.sha256` 文件后，可在 PowerShell 中核对：
 
 ```powershell
-Get-FileHash -Algorithm SHA256 -LiteralPath ".\香港工资管家-安装程序-1.1.0.exe"
+Get-FileHash -Algorithm SHA256 -LiteralPath ".\Hong-Kong-Payroll-Manager-Setup-1.1.0.exe"
 ```
 
 输出必须与 `.sha256` 文件中的值完全一致。若不一致，请勿运行安装程序。
