@@ -8,6 +8,13 @@
 
 适用系统：Windows 10/11 x64。下载 `Hong-Kong-Payroll-Manager-Setup-*.exe` 后运行安装；工资资料仅保存在当前 Windows 用户的本机应用数据目录。
 
+## 使用手册
+
+- [在线阅读中文手册](./USER_GUIDE_zh-CN.md)
+- [下载香港工资管家 1.1.0 中文使用手册 PDF](https://github.com/Don3253/hong-kong-payroll-manager-downloads/releases/download/v1.1.0/Hong-Kong-Payroll-Manager-User-Guide-zh-CN-1.1.0.pdf)
+
+手册包括安装校验、公司与员工设置、月度工资流程、MPF、最低工资、法定权益、工资条、银行付款文件、IR56 工作底稿、备份安全和常见问题。
+
 ## 校验文件
 
 下载同版本 `.sha256` 文件后，可在 PowerShell 中核对：

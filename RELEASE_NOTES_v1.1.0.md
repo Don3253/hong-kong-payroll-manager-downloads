@@ -1,5 +1,10 @@
 # 香港工资管家 1.1.0
 
+## 使用手册
+
+- [在线阅读中文手册](./USER_GUIDE_zh-CN.md)
+- Release 附件提供 `Hong-Kong-Payroll-Manager-User-Guide-zh-CN-1.1.0.pdf`，可离线下载阅读。
+
 ## 本次更新
 
 - 更新全套品牌 Logo、Windows 多尺寸图标和网页图标。
