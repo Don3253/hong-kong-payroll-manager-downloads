@@ -1,17 +1,17 @@
-# 香港工资管家下载
+# 工资管家（HK）/ Payroll Manager (HK) 下载
 
-这是香港工资管家的二进制发布仓库，只提供 Windows 安装程序和 SHA-256 校验文件，不包含底层源代码。
+这是工资管家（HK）的二进制发布仓库，只提供 Windows 安装程序、使用手册和 SHA-256 校验文件，不包含底层源代码。
 
 ## 下载
 
 [进入最新版下载页](https://github.com/Don3253/hong-kong-payroll-manager-downloads/releases/latest)
 
-适用系统：Windows 10/11 x64。下载 `Hong-Kong-Payroll-Manager-Setup-*.exe` 后运行安装；工资资料仅保存在当前 Windows 用户的本机应用数据目录。
+适用系统：Windows 10/11 x64。下载 `Payroll-Manager-HK-Setup-*.exe` 后运行安装；工资资料仅保存在当前 Windows 用户的本机应用数据目录。
 
 ## 使用手册
 
 - [在线阅读中文手册](./USER_GUIDE_zh-CN.md)
-- [下载香港工资管家 1.1.0 中文使用手册 PDF](https://github.com/Don3253/hong-kong-payroll-manager-downloads/releases/download/v1.1.0/Hong-Kong-Payroll-Manager-User-Guide-zh-CN-1.1.0.pdf)
+- [下载工资管家（HK）1.1.1 中文使用手册 PDF](https://github.com/Don3253/hong-kong-payroll-manager-downloads/releases/download/v1.1.1/Payroll-Manager-HK-User-Guide-zh-CN-1.1.1.pdf)
 
 手册包括安装校验、公司与员工设置、月度工资流程、MPF、最低工资、法定权益、工资条、银行付款文件、IR56 工作底稿、备份安全和常见问题。
 
@@ -20,14 +20,14 @@
 下载同版本 `.sha256` 文件后，可在 PowerShell 中核对：
 
 ```powershell
-Get-FileHash -Algorithm SHA256 -LiteralPath ".\Hong-Kong-Payroll-Manager-Setup-1.1.0.exe"
+Get-FileHash -Algorithm SHA256 -LiteralPath ".\Payroll-Manager-HK-Setup-1.1.1.exe"
 ```
 
 输出必须与 `.sha256` 文件中的值完全一致。若不一致，请勿运行安装程序。
 
 ## 签名状态
 
-`1.1.0` 当前未使用公众信任的 Windows Authenticode 证书签名，因此 Windows 可能显示“未知发布者”或 SmartScreen 提示。已提供 SHA-256 用于传输完整性核验。受信代码签名将在发布者完成证书机构身份验证后接入；不会使用自签名证书冒充可信发布者。
+`1.1.1` 当前未使用公众信任的 Windows Authenticode 证书签名，因此 Windows 可能显示“未知发布者”或 SmartScreen 提示。已提供 SHA-256 用于传输完整性核验。受信代码签名将在发布者完成证书机构身份验证后接入；不会使用自签名证书冒充可信发布者。
 
 ## 安全说明
 
@@ -36,4 +36,4 @@ Get-FileHash -Algorithm SHA256 -LiteralPath ".\Hong-Kong-Payroll-Manager-Setup-1
 - 工资与银行资料属于敏感数据。请从本仓库的 Release 页面下载、核对哈希，并启用 Windows 设备加密/BitLocker。
 - IR56 文件是核对工作底稿，不是税务局正式申报文件；银行上传文件及法定计算在商用前应由专业人士复核。
 
-Copyright © 2026 Don3253. All rights reserved. No source-code license is granted by this repository.
+Copyright © 2026. All rights reserved. No source-code license is granted by this repository.

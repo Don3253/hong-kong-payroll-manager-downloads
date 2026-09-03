@@ -1,27 +1,27 @@
-# 香港工资管家使用手册
+# 工资管家（HK）使用手册
 
-**适用版本：1.1.0**  
+**适用版本：1.1.1**
 **更新日期：2026-09-03**  
 **适用系统：Windows 10 / 11 x64**
 
-香港工资管家是一款面向香港中小企业的本地离线月度工资、强积金（MPF）及僱主申报工作底稿工具。工资、员工、银行和工资条密码等资料保存在当前 Windows 用户的本机应用数据目录，不会上传到本网站或 GitHub。
+工资管家（HK）（英文名：Payroll Manager (HK)）是一款面向香港中小企业的本地离线月度工资、强积金（MPF）及僱主申报工作底稿工具。工资、员工、银行和工资条密码等资料保存在当前 Windows 用户的本机应用数据目录，不会上传到本网站或 GitHub。
 
 > 重要：本软件的合规检查用于辅助核对，不构成法律、税务或会计意见。正式商用前，请让香港薪酬、会计或法律专业人士按实际雇佣合约和 MPF 计划验收。
 
 ## 1. 下载、校验与安装
 
-1. 从官方发布页下载 `Hong-Kong-Payroll-Manager-Setup-1.1.0.exe`。
+1. 从官方发布页下载 `Payroll-Manager-HK-Setup-1.1.1.exe`。
 2. 建议同时下载同版本的 `.sha256` 文件。
 3. 在安装包所在文件夹打开 PowerShell，执行：
 
    ```powershell
-   Get-FileHash -Algorithm SHA256 -LiteralPath ".\Hong-Kong-Payroll-Manager-Setup-1.1.0.exe"
+   Get-FileHash -Algorithm SHA256 -LiteralPath ".\Payroll-Manager-HK-Setup-1.1.1.exe"
    ```
 
-4. 1.1.0 安装包的 SHA-256 应为：
+4. 1.1.1 安装包的 SHA-256 应与发布页随附的 `.sha256` 文件完全一致：
 
    ```text
-   6B5EADEEB710FC40FCD5646BBCA5D0AD5B45ADA13BE65E3027D71B97682D3299
+   1AA257F70927DEDA7DDADA9644D532B6F498F4F7F998386C3EC31F8EC30E191A
    ```
 
 5. 双击安装包，选择安装目录并完成安装。安装程序会创建桌面和开始菜单快捷方式。
@@ -186,7 +186,7 @@
 
 ### Windows 显示未知发布者
 
-1.1.0 暂无受信 Authenticode 签名。请确认安装包来自官方发布仓库，并核对 SHA-256；无法确认时不要运行。
+1.1.1 暂无受信 Authenticode 签名。请确认安装包来自官方发布仓库，并核对 SHA-256；无法确认时不要运行。
 
 ### 软件显示的数据与银行或 MPF 平台不同
 
@@ -201,5 +201,4 @@
 - [安装包与版本发布](https://github.com/Don3253/hong-kong-payroll-manager-downloads/releases/latest)
 - [问题反馈](https://github.com/Don3253/hong-kong-payroll-manager-downloads/issues)
 
-本手册依据香港工资管家 1.1.0 的实际界面与功能编写，并于 2026-09-03 核对上述官方资料。软件升级后，请以同版本手册、程序内提示和最新官方规定为准。
-
+本手册依据工资管家（HK）1.1.1 的实际界面与功能编写，并于 2026-09-03 核对上述官方资料。软件升级后，请以同版本手册、程序内提示和最新官方规定为准。
